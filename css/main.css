@@ -100,16 +100,13 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.nav-list :hover,
-.nav-list :focus {
+.nav-list :hover, .nav-list :focus {
   color: #2196f3;
 }
 
 .nav_item {
   display: flex;
 }
-
 .nav_item:not(:last-child) {
   margin-right: 50px;
 }
@@ -131,13 +128,6 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.contaсt-first :hover,
-.contaсt-first :focus {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
 .contaсt-first_item:not(:last-child) {
   margin-right: 30px;
 }
@@ -147,6 +137,10 @@ button {
   display: flex;
   align-items: center;
   fill: var(--color-text-contact);
+}
+.contaсt-first_link:hover, .contaсt-first_link:focus {
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .contaсt-first_icon {
@@ -273,6 +267,9 @@ button {
 .hard-skils_item {
   position: relative;
 }
+.hard-skils_item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .hard-skils_par {
   position: absolute;
@@ -295,10 +292,6 @@ button {
 .hard-skils-list {
   display: flex;
   justify-content: space-between;
-}
-
-.hard-skils_item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .team {
@@ -379,9 +372,7 @@ button {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.soc_link:hover,
-.soc_link:focus {
+.soc_link:hover, .soc_link:focus {
   background-color: #2196f3;
   fill: #ffffff;
 }

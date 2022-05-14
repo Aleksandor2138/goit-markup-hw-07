@@ -13,11 +13,12 @@
   transition-property: color;
   transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contakts-list :hover,
-.contakts-list :focus {
+  :hover,
+  :focus {
   color: #2196f3;
 }
+}
+
 .contakts_item {
   transition-property: color;
   transition-duration: 2500ms;
@@ -27,26 +28,19 @@
   margin-bottom: 10px;
 }
 .contakts_link {
+  @include text-style($fw:400, $lh:1.71, $ls:0.03em, $col:#ffffff99);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.contakts_link--color {
+  &--color {
   color: #ffffff;
+}
 }
 .footer-soc {
   margin-top: 10px;
   margin-left: 70px;
 }
 .footer-soc-text {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include text-style($fw:700, $ls:0.03em, $col:#ffffff);
   text-transform: uppercase;
-  color: #ffffff;
   margin-bottom: 20px;
 }
 .soc_link--fill {
@@ -60,12 +54,8 @@
   margin-left: 93px;
 }
 .footer-mailing-label {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.67;
-  letter-spacing: 0.03em;
+  @include text-style($fw:700, $lh:1.67, $ls:0.03em, $col:#ffffff);
   text-transform: uppercase;
-  color: #ffffff;
 }
 .footer-mailing-input {
   width: 358px;
@@ -78,16 +68,13 @@
   background: var(--section-color);
 }
 .footer-mailing-btn {
+  @include text-style(700, 16px, 1.875, 0.02em, #ffffff);
   position: relative;
   width: 200px;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.875;
-  color: #ffffff;
   fill: #ffffff;
   text-align: left;
   padding-left: 29px;

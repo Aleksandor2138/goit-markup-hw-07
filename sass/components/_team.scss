@@ -4,13 +4,10 @@
   padding-bottom: 94px;
 }
 .our-team {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
+  @include text-style(700, 36px, 1.17, 0.03em);
+   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
+   margin-bottom: 50px;
 }
 .our-team-list {
   display: flex;
@@ -26,21 +23,15 @@
   border-radius: 0px 0px 4px 4px;
 }
 .our-team_header {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include text-style($fs:16px, $lh:1.17, $ls:0.03em);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .our-team_paragraph {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
-  margin-bottom: 15px;
+  @include text-style($fs:16px, $lh:1.17, $ls:0.03em, $col:#757575);
+   text-align: center;
+   margin-bottom: 15px;
 }
 .our-team-signature {
   padding-top: 30px;
