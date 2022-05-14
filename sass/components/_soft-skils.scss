@@ -1,0 +1,41 @@
+.soft-skils {
+  background: #ffffff;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.soft-skils-list {
+  display: flex;
+}
+.soft-skils_item:not(:last-child) {
+  margin-right: 30px;
+}
+.soft-skils_item {
+  width: 270px;
+}
+.soft-skils_header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+.soft-skils_paragraph {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.soft-skils_cont {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.soft-skils_icon {
+  margin: 0 auto;
+}

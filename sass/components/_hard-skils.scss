@@ -1,0 +1,39 @@
+.hard-skil {
+  padding-bottom: 94px;
+}
+.hard-skils {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+.hard-skils_item {
+  position: relative;
+}
+.hard-skils_par {
+  position: absolute;
+  top: 224px;
+  width: 370px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+}
+.hard-skils-list {
+  display: flex;
+  justify-content: space-between;
+}
+.hard-skils_item:not(:last-child) {
+  margin-right: 30px;
+}

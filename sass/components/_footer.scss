@@ -1,0 +1,101 @@
+.footer {
+  background: var(--section-color);
+  padding-top: 62px;
+  padding-bottom: 62px;
+}
+.footer .container {
+  display: flex;
+}
+.contakts-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  transition-property: color;
+  transition-duration: 2500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contakts-list :hover,
+.contakts-list :focus {
+  color: #2196f3;
+}
+.contakts_item {
+  transition-property: color;
+  transition-duration: 2500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contakts_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.contakts_link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contakts_link--color {
+  color: #ffffff;
+}
+.footer-soc {
+  margin-top: 10px;
+  margin-left: 70px;
+}
+.footer-soc-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.soc_link--fill {
+  background-color: #575860;
+  fill: #ffffff;
+ }
+.footer-mailing {
+  width: 570px;
+  height: 86px;
+  margin-top: 10px;
+  margin-left: 93px;
+}
+.footer-mailing-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-mailing-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  margin-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: var(--section-color);
+}
+.footer-mailing-btn {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  color: #ffffff;
+  fill: #ffffff;
+  text-align: left;
+  padding-left: 29px;
+  outline: none;
+  border: none;
+}
+.footer-mailing-icon {
+  position: absolute;
+  top: 13px;
+  right: 28px;
+}
