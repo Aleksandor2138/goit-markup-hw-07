@@ -2,9 +2,9 @@
   background: var(--section-color);
   padding-top: 62px;
   padding-bottom: 62px;
-}
-.footer .container {
+  & .container {
   display: flex;
+}
 }
 .contakts-list {
   margin-top: 20px;
@@ -19,15 +19,15 @@
 }
 }
 
-.contakts_item {
+.contakts__item {
   transition-property: color;
   transition-duration: 2500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contakts_item:not(:last-child) {
+  &:not(:last-child) {
   margin-bottom: 10px;
 }
-.contakts_link {
+}
+.contakts__link {
   @include text-style($fw:400, $lh:1.71, $ls:0.03em, $col:#ffffff99);
   font-style: normal;
   &--color {
@@ -43,10 +43,10 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.soc_link--fill {
+.soc__link--fill {
   background-color: #575860;
   fill: #ffffff;
- }
+}
 .footer-mailing {
   width: 570px;
   height: 86px;

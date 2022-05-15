@@ -10,7 +10,7 @@
   margin-bottom: -30px;
   margin-top: 50px;
 }
-.portfolio_item {
+.portfolio__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
@@ -26,7 +26,7 @@
   position: relative;
   overflow: hidden;
 }
-.portfolio-overlay_p {
+.portfolio-overlay__p {
   @include text-style(400, 18px, 1.56, 0.03em, #ffffff);
   position: absolute;
   top: 0%;
@@ -37,19 +37,19 @@
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier (0.4, 0, 0.2, 1);
-  .portfolio_item:hover & {
+  .portfolio__item:hover & {
     transform: translatey(0%);
   }
 }
-.portfolio_description {
+.portfolio__description {
   background: #ffffff;
   border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
-.portfolio_header {
+.portfolio__header {
   @include text-style(700, 18px, 2, 0em, #212121);
   margin-bottom: 5px;
 }
-.portfolio_paragraph {
+.portfolio__paragraph {
   @include text-style(400, 16px, 1.86, 0.03em, #757575);
 }

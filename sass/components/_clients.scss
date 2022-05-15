@@ -11,10 +11,10 @@
 .clients-list {
   display: flex;
 }
-.clients_item + .clients_item {
+.clients__item + .clients__item {
   margin-left: 30px;
 }
-.clients_link {
+.clients__link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -26,9 +26,9 @@
   transition-property: border fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.clients_link:hover,
-.clients_link:focus {
+  &:hover,
+  &:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
+}
 }

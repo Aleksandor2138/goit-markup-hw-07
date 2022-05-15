@@ -6,21 +6,22 @@
 .soft-skils-list {
   display: flex;
 }
-.soft-skils_item:not(:last-child) {
+
+.soft-skils__item {
+  width: 270px;
+  &:not(:last-child) {
   margin-right: 30px;
 }
-.soft-skils_item {
-  width: 270px;
 }
-.soft-skils_header {
+.soft-skils__header {
   @include text-style($fw:700, $ls:0.03em);
   text-transform: uppercase;
     margin-bottom: 10px;
 }
-.soft-skils_paragraph {
+.soft-skils__paragraph {
   @include text-style(700, 14px, 1.71, 0.03em, #757575);
 }
-.soft-skils_cont {
+.soft-skils__cont {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
@@ -29,6 +30,6 @@
   justify-content: center;
   align-items: center;
 }
-.soft-skils_icon {
+.soft-skils__icon {
   margin: 0 auto;
 }

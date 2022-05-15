@@ -3,10 +3,10 @@
   justify-content: center;
   align-items: center;
 }
-.soc_item:not(:last-child) {
+.soc__item:not(:last-child) {
   margin-right: 10px;
 }
-.soc_link {
+.soc__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
