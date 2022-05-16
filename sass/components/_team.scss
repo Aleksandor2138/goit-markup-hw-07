@@ -29,7 +29,7 @@
     margin-bottom: 10px;
 }
 .our-team__paragraph {
-  @include text-style($fs:16px, $lh:1.17, $ls:0.03em, $col:#757575);
+  @include text-style(400, 16px, 1.17, 0.03em, #757575);
   text-align: center;
   margin-bottom: 15px;
 }

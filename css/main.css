@@ -241,7 +241,7 @@ button {
 }
 
 .soft-skils__paragraph {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -349,7 +349,7 @@ button {
 }
 
 .our-team__paragraph {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -477,7 +477,7 @@ button {
 }
 
 .footer-soc {
-  margin-top: 10px;
+  margin-top: 2px;
   margin-left: 70px;
 }
 
@@ -492,24 +492,23 @@ button {
 }
 
 .soc__link--fill {
-  background-color: #575860;
+  background-color: rgba(255, 255, 255, 0.1);
   fill: #ffffff;
 }
 
 .footer-mailing {
-  width: 570px;
-  height: 86px;
-  margin-top: 10px;
+  margin-top: 2px;
   margin-left: 93px;
 }
 
 .footer-mailing-label {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.67;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-transform: uppercase;
+  display: flex;
 }
 
 .footer-mailing-input {
@@ -540,6 +539,7 @@ button {
   padding-left: 29px;
   outline: none;
   border: none;
+  margin-left: 12px;
 }
 
 .footer-mailing-icon {

@@ -12,7 +12,7 @@
 }
 
 .menu__item:not(:last-child) {
-  margin-right: 12px;
+  margin-right: 8px;
 }
 .menu__btn {
   @include text-style( $fs:16px, $lh:1.56, $ls:0.03em);
